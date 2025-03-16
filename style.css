@@ -21,6 +21,9 @@
 .header-container .logo {
   grid-column: span 3;
 }
+.logo img {
+  width: 101px;
+}
 .nav-list {
   grid-column: span 6;
 }
@@ -33,9 +36,9 @@
 }
 .nav-list ul li a {
   color: #656161;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .header-btn {
   grid-column: span 3;
