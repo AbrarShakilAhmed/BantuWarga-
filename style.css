@@ -131,6 +131,5 @@ main .hero {
   position: absolute;
   top: -221px;
   left: 234px;
-
   z-index: 2;
 }
