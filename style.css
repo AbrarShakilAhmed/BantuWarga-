@@ -133,3 +133,17 @@ main .hero {
   left: 234px;
   z-index: 2;
 }
+.service-area {
+  text-align: center;
+}
+.service-area .service-title {
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 5%;
+  margin-bottom: 30px;
+}
+.service {
+  margin-top: -60px;
+  display: grid;
+  grid-template-columns: ;
+}
