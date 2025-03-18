@@ -15,6 +15,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+p {
+  line-height: 25px;
+}
 .common-btn {
   color: white;
   background-color: #5669ff;
@@ -159,7 +162,7 @@ main .hero {
   color: #4a4545;
   letter-spacing: 5%;
   font-size: 16px;
-  line-height: 20px;
+
   margin-top: 10px;
 }
 .service-area button {
