@@ -171,3 +171,7 @@ main .hero {
   border-radius: 10px;
   font-weight: 600;
 }
+
+.app {
+  display: flex;
+}
