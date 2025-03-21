@@ -177,10 +177,23 @@ main .hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.app .app-banner {
-  flex: 1;
+.app .app-banner img {
+  width: 100%;
 }
 .app .app-text {
   flex: 1;
+  max-width: 614px;
+}
+
+.app-text a {
+  font-family: 'Poppins', sans-serif;
+  color: #5669ff;
+  letter-spacing: 2%;
+  font-weight: 600;
+}
+.app-text a::before {
+  content: '|';
+  display: inline-block;
 }
