@@ -173,7 +173,7 @@ main .hero {
 }
 
 .app {
-  margin-top: 100px;
+  margin: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,6 +230,9 @@ main .hero {
 .app-text p {
   letter-spacing: 2%;
 }
-.app-text .app-links{
+.app-text .app-links {
   margin: 30px 0;
+}
+.app-links img:nth-child(2) {
+  margin-left: 20px;
 }
