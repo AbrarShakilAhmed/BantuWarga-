@@ -187,17 +187,18 @@ main .hero {
   width: 100%;
 }
 .app .app-banner .back {
-height: 500px;
-    width: 500px;
-    background-color: #5669ff;
-    position: absolute;
-    z-index: -1;
-    top: 195px;
-    left: 50%;
-    margin-left: -250px;
-    border: 5px solid #7d8cff;
-    border-radius: 1187px;
+  height: 515px;
+  width: 523px;
+  background-color: #5669ff;
+  position: absolute;
+  z-index: -1;
+  top: 174px;
+  left: 50%;
+  margin-left: -262px;
+  border: 5px solid #7d8cff;
+  border-radius: 1187px;
 }
+
 .app .app-text {
   flex: 1;
   max-width: 614px;
