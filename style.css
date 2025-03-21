@@ -184,17 +184,16 @@ main .hero {
   position: relative;
 }
 .app .app-banner img {
-  width: 100%;
 }
 .app .app-banner .back {
-  height: 515px;
-  width: 523px;
+  height: 510px;
+  width: 533px;
   background-color: #5669ff;
   position: absolute;
   z-index: -1;
-  top: 174px;
+  top: 175px;
   left: 50%;
-  margin-left: -262px;
+  margin-left: -267px;
   border: 5px solid #7d8cff;
   border-radius: 1187px;
 }
