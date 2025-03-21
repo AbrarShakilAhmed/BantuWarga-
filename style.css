@@ -179,12 +179,29 @@ main .hero {
   align-items: center;
   width: 100%;
 }
+
+.app-banner {
+  position: relative;
+}
 .app .app-banner img {
   width: 100%;
+}
+.app .app-banner .back {
+height: 500px;
+    width: 500px;
+    background-color: #5669ff;
+    position: absolute;
+    z-index: -1;
+    top: 195px;
+    left: 50%;
+    margin-left: -250px;
+    border: 5px solid #7d8cff;
+    border-radius: 1187px;
 }
 .app .app-text {
   flex: 1;
   max-width: 614px;
+  padding: 0 30px;
 }
 
 .app-text a {
@@ -193,6 +210,7 @@ main .hero {
   letter-spacing: 2%;
   font-weight: 600;
   position: relative;
+  text-decoration: none;
 }
 .app-text a::before {
   content: '';
@@ -207,4 +225,8 @@ main .hero {
 .app-text .app-title {
   margin: 30px 0;
   font-size: 52px;
+}
+
+.app-text p {
+  letter-spacing: 2%;
 }
