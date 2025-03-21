@@ -230,3 +230,6 @@ main .hero {
 .app-text p {
   letter-spacing: 2%;
 }
+.app-text .app-links{
+  margin: 30px 0;
+}
